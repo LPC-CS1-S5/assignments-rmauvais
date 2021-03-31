@@ -37,5 +37,13 @@ int main()
 
     return -1;
   }
-  
+  for (int i = 0; i < N; i++)
+  {
+    int num = getRdnum();
+
+    if (isGreater(num))
+
+    output << num << " ";
+  }
+  output.close();
 }
