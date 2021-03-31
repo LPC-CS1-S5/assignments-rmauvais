@@ -20,3 +20,12 @@ cout<<"\nInput number of scores ";
 cin>>m;
 if(m>0)
 {
+for(i=0;i<n;i++)
+{
+cout<<"\nEnter student name ";
+cin>>name[i];
+cout<<"\nEnter "<<m<<" scores ";
+cin>>scores[i][j];
+}
+}
+cout<<"\nstudent name sum average \n";
