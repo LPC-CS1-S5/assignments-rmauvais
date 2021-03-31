@@ -29,3 +29,13 @@ cin>>scores[i][j];
 }
 }
 cout<<"\nstudent name sum average \n";
+for(i=0;i<n;i++)
+{
+int sum=0;
+cout<<name[i]<<" ";
+for(j=0;j<m;j++)
+{
+sum=sum+scores[i][j];
+}
+average=(double)sum/m;
+}
