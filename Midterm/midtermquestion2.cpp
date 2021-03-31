@@ -38,4 +38,24 @@ for(j=0;j<m;j++)
 sum=sum+scores[i][j];
 }
 average=(double)sum/m;
+cout<<"\t\t\t"<<sum;
+cout<<"\t\t\t"<<average;
+cout<<"\n";
+}
+break;
+}
+else
+{
+cout<<"\nInput valid number of scores \n";
+}
+}
+
+break;
+}
+else
+{
+cout<<"Invalid number of students \n";
+}
+}
+return 0;
 }
