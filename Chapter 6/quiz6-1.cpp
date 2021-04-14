@@ -14,4 +14,12 @@ int main ()
   int x,y;
 
   cout<<"\n Enter 2 numbers: ";
+
+  cin>>x>>y;
+
+  cout<<"\n Before Swapping x = "<<x<<" and y = "<<y;
+
+  swap(x,y);
+
+  cout<<"\n After Swapping x = "<<x<<" and y = "<<y;
 }
