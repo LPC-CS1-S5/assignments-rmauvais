@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-
 using namespace std;
 const int N = 10;
 bool check(int a[],int index)
@@ -23,6 +22,6 @@ int main(){
   for(int i=0;i<N;i++){
     //checks and displays the elements from the numbers
     if(check(number,i))
-      cout<<number[i]<<"at index "<<i<" is following the criteria."<<endl;
+      cout<<number[i]<<" at index "<<i<<" is following the criteria."<<endl;
   }
 }
