@@ -22,5 +22,7 @@ int main(){
   //lopps from 0 to less than namespace
   for(int i=0;i<N;i++){
     //checks and displays the elements from the numbers
+    if(check(number,i))
+      cout<<number[i]<<"at index "<<i<" is following the criteria."<<endl;
   }
 }
