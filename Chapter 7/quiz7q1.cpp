@@ -11,10 +11,16 @@ return true;
 //checks if index is N-1 then checks with the previous element
 if(index==N-1&&(abs(a[index]-a[index-1])<10))
 return true;
-if(index!=N && index!=0&&(abs(a[index]-a)[index+1]<10))&&(abs(a[index]-a[index-1])<10))
+//checks for previous and next element
+if(index!=N && index!=0&&(abs(a[index]-a[index+1]<10))&&(abs(a[index]-a[index-1])<10))
 return true;
+//return false if condition isn't satisfied
 return false;
 }
 int main(){
   int number[N]={10,15,0,-25,19,20,25,30,45,20};
+  //lopps from 0 to less than namespace
+  for(int i=0;i<N;i++){
+    //checks and displays the elements from the numbers
+  }
 }
