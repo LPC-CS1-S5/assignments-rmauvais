@@ -22,7 +22,7 @@ for(i=0; i<n; i++) // the numbers divide into two slots to be stored in those de
     cout<<numbers1[i]<<" , ";
   }
 }
-  else // numbers in the second slot
+else // numbers in the second slot
 {
   numbers2[i] = numbers[i];
   cout<<numbers2[i]<<" , ";
