@@ -37,6 +37,14 @@ for(i=0; i<n; i++) // the numbers divide into two slots to be stored in those de
 }
 int findmax(int numbers[], int from, int to)// function definition for finding the max numbers
 {
-  int i, t = numbers [0]
+  int i, t = numbers [0];
+  for (i = from; i < to; ++i)
+  {
+    if (t < numbers [i]) //first number compared with second number
+    {
+      t = numbers[i]; //if condition is true then interchange them
+    }
+  }
 }
+return t; // return the max number
 }
