@@ -11,8 +11,10 @@ int main()
 }
 void printtriangle(int num[][3], int size)
 {
-  for (int i = 0; i<size; ++i){
-    for (int j = 0; j<3;++j) {
+  for (int i = 0; i<size;i++){
+    for (int j = 0; j<3;j++) {
+      if (j<=i){
+      }
       cout<<num[i][j]<<"";
     }
     cout<<endl;
