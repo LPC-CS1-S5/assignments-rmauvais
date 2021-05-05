@@ -36,9 +36,18 @@ void deleteone(vector<int> &vec)
 
       cin >> usernum;
 
-       
+      int deletecnt = count(vec.begin(), vec.end(), usernum);
+
+      vector<int>::iterator iter = vec.begin();
+      while(iter != vec.end())
+      {
+        if (*iter == usernum)
+        iter = vec.erase(iter);
+        else
+        iter++;
+      } //end of while loop
 
       cout << usernum << "is deleted " << deletecnt << " times \n";
- printvector(vec)
+ printvector(vec); //printing all elements in vector using printvector method
  
-}
+} //end of deleteone method
