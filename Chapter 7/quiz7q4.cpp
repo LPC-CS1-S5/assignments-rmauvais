@@ -36,7 +36,7 @@ void deleteone(vector<int> &vec)
 
       cin >> usernum;
 
-      // Your Code 
+       
 
       cout << usernum << "is deleted " << deletecnt << " times \n";
  printvector(vec)
