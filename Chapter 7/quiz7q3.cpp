@@ -12,4 +12,7 @@ for(i= 0;i<n ; i++)
 {
   cin>>numbers[i];
 }
+cout<<"The given numbers is..."<<endl;
+cout<<" [ ";
+for(i=0; i<n; i++) // the numbers divide into two slots to be stored in those designated slots.
 }
