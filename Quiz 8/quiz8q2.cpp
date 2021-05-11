@@ -37,7 +37,23 @@ int main()
         }
         if (at_pos==-1)
         {
-          
+          cout<<"The email id "<<email<<" is invalid"<<endl;
+          cout<<"* @ symbol is missing"<<endl;
+          cout<<"* Missing Domain Name "<<endl;
+        }
+        else if(dot_pos==-1)
+        {
+          cout<<"The email id "<<email<<" is invalid"<<endl;
+          cout<<"* Missing Domain Name "<<endl;
+        }
+        else if(dot_pos<at_pos)
+        {
+          cout<<"The email id "<<email<<" is invalid"<<endl;
+          cout<<"* Missing Domain Name "<<endl;
+        }
+        else
+        {
+          cout<<"The email id "<<email<< is valid"<<endl;
         }
       }
     }
