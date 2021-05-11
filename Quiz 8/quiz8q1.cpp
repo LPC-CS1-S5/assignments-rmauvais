@@ -31,8 +31,8 @@ for(int i=0; i<txt.size();i++){
   if(found==-1)
 
   break;
-  
-  cout <<"found"<<,found<<""<<keyboard<<endl;
+
+  cout <<"found"<<found<<""<<keyword<<endl;
 
   count++;
 
