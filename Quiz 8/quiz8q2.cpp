@@ -53,7 +53,7 @@ int main()
         }
         else
         {
-          cout<<"The email id "<<email<< is valid"<<endl;
+          cout<<"The email id "<<email<<" is valid"<<endl;
         }
       }
     }
