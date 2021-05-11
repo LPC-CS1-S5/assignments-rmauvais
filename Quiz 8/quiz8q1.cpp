@@ -27,8 +27,11 @@ int found = 0, count=0;
 for(int i=0; i<txt.size();i++){
   
   found = txt.find(keyword,i);
+
   if(found==-1)
+
   break;
+  
   cout <<"found"<<,found<<""<<keyboard<<endl;
 
   count++;
