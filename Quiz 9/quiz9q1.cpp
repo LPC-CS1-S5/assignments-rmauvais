@@ -7,6 +7,7 @@ struct employee {
   char name[50];
   int salary;
   char department[50];
+  int date;
 };
 
 int main ()
