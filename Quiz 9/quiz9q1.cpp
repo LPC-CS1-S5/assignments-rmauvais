@@ -15,6 +15,11 @@ int main ()
   cout<<"The employee information is given as follows:"<<endl;
   cout<<endl;
   for(int i=0; i<1; i++ ) {
-    cout <<"Employee ID:"
+    cout <<"Employee ID:"<<emp[i].empID<<endl;
+    cout<<"Name: "<<emp[i].name<<endl;
+    cout<<"Salary: "<<emp[i].salary<<endl;
+    cout<<"Department: "<<emp[i].department<<endl;
+    cout<<endl;
   }
+  return 0;
 }
