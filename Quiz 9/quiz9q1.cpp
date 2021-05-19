@@ -12,10 +12,10 @@ struct employee {
 
 int main ()
 {
-  struct employee emp[1] = { 928431, "Tom Arthur", 35000, "Finance", 022521 };
+  struct employee emp[3] = { { 928431, "Tom Arthur", 350000, "Finance", 022521 } , { 394221, "Jane Hickens", 200000, "Computer", 032219 } , { 458233, "Carl Jacobs", 35000, "Technical", 061218 };
   cout<<"The employee information is given as follows:"<<endl;
   cout<<endl;
-  for(int i=0; i<1; i++ ) {
+  for(int i=0; i<3; i++ ) {
     cout <<"Employee ID:"<<emp[i].empID<<endl;
     cout<<"Name: "<<emp[i].name<<endl;
     cout<<"Salary: "<<emp[i].salary<<endl;
