@@ -12,7 +12,7 @@ struct employee {
 
 int main ()
 {
-  struct employee emp[1] = { 1, "Tom", 35000, "Finance", 022521 };
+  struct employee emp[1] = { 928431, "Tom Arthur", 35000, "Finance", 022521 };
   cout<<"The employee information is given as follows:"<<endl;
   cout<<endl;
   for(int i=0; i<1; i++ ) {
