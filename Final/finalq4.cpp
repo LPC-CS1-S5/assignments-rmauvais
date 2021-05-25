@@ -16,7 +16,7 @@ int main()
 
   //Print the number of words
   std::cout << "Number of Words: "
-  << std::distance
+    << std::distance
   (std::sregex_token_iterator(test.begin(), test.end(), re, 1)),
   std::sregex_token_iterator())
   << "\n\nCount of characters:\n\n";
