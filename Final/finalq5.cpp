@@ -33,8 +33,18 @@ int main()
   file.open(fileName,ios::in);
   if(!file)
   {
-    cout<<
+    cout<<"Error in opening file!!!"<<endl;
+    return -1; // return it to main
   }
+
+  //read file content
+  while(!file.eof())
+  {
+    file >> noskipws >> ch;
+    cout << ch;
+  }
+  file.close();
+  return 0;
 
   ifstream ifs;
 
