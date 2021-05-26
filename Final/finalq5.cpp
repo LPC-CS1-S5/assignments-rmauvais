@@ -1,10 +1,10 @@
 #include <iostream>
+#include <fstream>
+#include <iomanip>
 
 using namespace std;
 
-int main()
-{
-  const unsigned short N=5;
+const unsigned short N=5;
   struct Scores{
     double sc[N];
     string grade;
@@ -18,4 +18,14 @@ int main()
   };
 
   Grade g;
+  void printstruct(Grade);
+
+int main()
+{
+  ifstream ifs;
+
+  ifs.open("grades.bin");
+  if(! ifs){
+    cout <<"File Open Error"
+  }
 }
