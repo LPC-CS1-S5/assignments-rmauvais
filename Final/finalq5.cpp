@@ -23,19 +23,17 @@ const unsigned short N=5;
 
 int main()
 {
-  fstream newfile;
-  newfile.open("grades.txt",ios::out); //opening the file
-  if(newfile.is_open()) //check if it's open
+  char ch;
+  const char *fileName="grades.txt";
+
+  //declare object
+  ifstream file;
+
+  //open the file
+  file.open(fileName,ios::in);
+  if(!file)
   {
-    newfile.close();
-  }
-  newfile.open("grades.txt",ios::in);
-  if (newfile.is_open()){
-    string tp;
-    while(getline(newfile, tp)){
-      cout << tp << "\n"; //print data of string
-    }
-    newfile.close(); // the file object
+    cout<<
   }
 
   ifstream ifs;
