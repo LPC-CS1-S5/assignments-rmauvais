@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <iomanip>
+#include<string>
 
 using namespace std;
 
@@ -22,6 +23,21 @@ const unsigned short N=5;
 
 int main()
 {
+  fstream newfile;
+  newfile.open("grades.txt",ios::out); //opening the file
+  if(newfile.is_open()) //check if it's open
+  {
+    newfile.close();
+  }
+  newfile.open("grades.txt",ios::in);
+  if (newfile.is_open()){
+    string tp;
+    while(getline(newfile, tp)){
+      cout << tp << "\n"; //print data of string
+    }
+    newfile.close(); // the file object
+  }
+
   ifstream ifs;
 
   ifs.open("grades.bin");
